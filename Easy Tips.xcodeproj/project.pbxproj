@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		98EDBA95228FE9810062E4E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EDBA94228FE9810062E4E2 /* AppDelegate.swift */; };
-		98EDBA97228FE9810062E4E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EDBA96228FE9810062E4E2 /* ViewController.swift */; };
 		98EDBA9A228FE9810062E4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EDBA98228FE9810062E4E2 /* Main.storyboard */; };
 		98EDBA9C228FE9820062E4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EDBA9B228FE9820062E4E2 /* Assets.xcassets */; };
 		98EDBA9F228FE9820062E4E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EDBA9D228FE9820062E4E2 /* LaunchScreen.storyboard */; };
+		98EDBAA7228FE9EF0062E4E2 /* RoundedShadowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EDBAA6228FE9EF0062E4E2 /* RoundedShadowCard.swift */; };
+		98EDBAA9228FF3D00062E4E2 /* InputBillAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EDBAA8228FF3D00062E4E2 /* InputBillAmountViewController.swift */; };
+		98EDBAAB228FFFED0062E4E2 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EDBAAA228FFFED0062E4E2 /* GradientView.swift */; };
+		98EDBAAE22901D660062E4E2 /* CalculateTipTextFieldButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EDBAAD22901D660062E4E2 /* CalculateTipTextFieldButton.swift */; };
+		F6A8C43E07755286EEF4AE27 /* Pods_Easy_Tips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30EB249E2E739C690C29635 /* Pods_Easy_Tips.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0928487FB6B4893CC3D924DA /* Pods-Easy Tips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy Tips.debug.xcconfig"; path = "Target Support Files/Pods-Easy Tips/Pods-Easy Tips.debug.xcconfig"; sourceTree = "<group>"; };
 		98EDBA91228FE9810062E4E2 /* Easy Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Tips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EDBA94228FE9810062E4E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98EDBA96228FE9810062E4E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98EDBA99228FE9810062E4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98EDBA9B228FE9820062E4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98EDBA9E228FE9820062E4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98EDBAA0228FE9820062E4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98EDBAA6228FE9EF0062E4E2 /* RoundedShadowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowCard.swift; sourceTree = "<group>"; };
+		98EDBAA8228FF3D00062E4E2 /* InputBillAmountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBillAmountViewController.swift; sourceTree = "<group>"; };
+		98EDBAAA228FFFED0062E4E2 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		98EDBAAD22901D660062E4E2 /* CalculateTipTextFieldButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateTipTextFieldButton.swift; sourceTree = "<group>"; };
+		B30EB249E2E739C690C29635 /* Pods_Easy_Tips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easy_Tips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89F8EAA3F62949B0E45299F /* Pods-Easy Tips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy Tips.release.xcconfig"; path = "Target Support Files/Pods-Easy Tips/Pods-Easy Tips.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A8C43E07755286EEF4AE27 /* Pods_Easy_Tips.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				98EDBA93228FE9810062E4E2 /* Easy Tips */,
 				98EDBA92228FE9810062E4E2 /* Products */,
+				DED941B0F0A9DC76633D6B62 /* Pods */,
+				BA5E4E610BE52897C92FD895 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +68,41 @@
 			isa = PBXGroup;
 			children = (
 				98EDBA94228FE9810062E4E2 /* AppDelegate.swift */,
-				98EDBA96228FE9810062E4E2 /* ViewController.swift */,
+				98EDBAA8228FF3D00062E4E2 /* InputBillAmountViewController.swift */,
 				98EDBA98228FE9810062E4E2 /* Main.storyboard */,
-				98EDBA9B228FE9820062E4E2 /* Assets.xcassets */,
-				98EDBA9D228FE9820062E4E2 /* LaunchScreen.storyboard */,
+				98EDBAAC22901C600062E4E2 /* Supporting Files */,
 				98EDBAA0228FE9820062E4E2 /* Info.plist */,
 			);
 			path = "Easy Tips";
+			sourceTree = "<group>";
+		};
+		98EDBAAC22901C600062E4E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98EDBAA6228FE9EF0062E4E2 /* RoundedShadowCard.swift */,
+				98EDBAAA228FFFED0062E4E2 /* GradientView.swift */,
+				98EDBAAD22901D660062E4E2 /* CalculateTipTextFieldButton.swift */,
+				98EDBA9B228FE9820062E4E2 /* Assets.xcassets */,
+				98EDBA9D228FE9820062E4E2 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA5E4E610BE52897C92FD895 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B30EB249E2E739C690C29635 /* Pods_Easy_Tips.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DED941B0F0A9DC76633D6B62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0928487FB6B4893CC3D924DA /* Pods-Easy Tips.debug.xcconfig */,
+				E89F8EAA3F62949B0E45299F /* Pods-Easy Tips.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98EDBAA3228FE9820062E4E2 /* Build configuration list for PBXNativeTarget "Easy Tips" */;
 			buildPhases = (
+				C9F410F0B73DD3FE73BF93F0 /* [CP] Check Pods Manifest.lock */,
 				98EDBA8D228FE9810062E4E2 /* Sources */,
 				98EDBA8E228FE9810062E4E2 /* Frameworks */,
 				98EDBA8F228FE9810062E4E2 /* Resources */,
+				BB1620AFE0DAEA3BC18D5176 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +173,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BB1620AFE0DAEA3BC18D5176 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Easy Tips/Pods-Easy Tips-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SuxiNumberInputView/SuxiNumberInputView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SuxiNumberInputView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Easy Tips/Pods-Easy Tips-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9F410F0B73DD3FE73BF93F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Easy Tips-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98EDBA8D228FE9810062E4E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98EDBA97228FE9810062E4E2 /* ViewController.swift in Sources */,
+				98EDBAA9228FF3D00062E4E2 /* InputBillAmountViewController.swift in Sources */,
+				98EDBAA7228FE9EF0062E4E2 /* RoundedShadowCard.swift in Sources */,
+				98EDBAAB228FFFED0062E4E2 /* GradientView.swift in Sources */,
+				98EDBAAE22901D660062E4E2 /* CalculateTipTextFieldButton.swift in Sources */,
 				98EDBA95228FE9810062E4E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +373,7 @@
 		};
 		98EDBAA4228FE9820062E4E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0928487FB6B4893CC3D924DA /* Pods-Easy Tips.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +392,7 @@
 		};
 		98EDBAA5228FE9820062E4E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89F8EAA3F62949B0E45299F /* Pods-Easy Tips.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
