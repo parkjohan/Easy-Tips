@@ -73,30 +73,6 @@
                                             <constraint firstAttribute="height" constant="250" id="lAp-ep-c3A"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rik-vd-8PZ" customClass="RoundedShadowCardView" customModule="Easy_Tips" customModuleProvider="target">
-                                        <rect key="frame" x="32" y="794" width="350" height="60"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MxV-Za-uRX">
-                                                <rect key="frame" x="8" y="0.0" width="334" height="60"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                                <state key="normal" title="Reset">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="reset:" destination="dIm-xC-GMZ" eventType="touchUpInside" id="avw-oI-o7J"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="MxV-Za-uRX" secondAttribute="bottom" id="1mA-iV-hoo"/>
-                                            <constraint firstAttribute="height" constant="60" id="42d-H3-B05"/>
-                                            <constraint firstItem="MxV-Za-uRX" firstAttribute="top" secondItem="rik-vd-8PZ" secondAttribute="top" id="Ynx-VA-wKX"/>
-                                            <constraint firstAttribute="trailing" secondItem="MxV-Za-uRX" secondAttribute="trailing" constant="8" id="csk-ho-p66"/>
-                                            <constraint firstItem="MxV-Za-uRX" firstAttribute="leading" secondItem="rik-vd-8PZ" secondAttribute="leading" constant="8" id="kAZ-tO-NUx"/>
-                                        </constraints>
-                                    </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yKn-8S-6DY" customClass="RoundedShadowCardView" customModule="Easy_Tips" customModuleProvider="target">
                                         <rect key="frame" x="32" y="178" width="350" height="55"/>
                                         <subviews>
@@ -177,6 +153,30 @@
                                             <constraint firstItem="qoK-DN-ZyB" firstAttribute="leading" secondItem="nqM-vE-VLp" secondAttribute="leading" constant="27" id="xIZ-rI-F5Z"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rik-vd-8PZ" customClass="RoundedShadowCardView" customModule="Easy_Tips" customModuleProvider="target">
+                                        <rect key="frame" x="87" y="794" width="241" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MxV-Za-uRX">
+                                                <rect key="frame" x="25" y="0.0" width="190" height="60"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                <state key="normal" title="Reset">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="reset:" destination="dIm-xC-GMZ" eventType="touchUpInside" id="avw-oI-o7J"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="MxV-Za-uRX" secondAttribute="bottom" id="1mA-iV-hoo"/>
+                                            <constraint firstAttribute="height" constant="60" id="42d-H3-B05"/>
+                                            <constraint firstItem="MxV-Za-uRX" firstAttribute="top" secondItem="rik-vd-8PZ" secondAttribute="top" id="Ynx-VA-wKX"/>
+                                            <constraint firstAttribute="trailing" secondItem="MxV-Za-uRX" secondAttribute="trailing" constant="26" id="csk-ho-p66"/>
+                                            <constraint firstItem="MxV-Za-uRX" firstAttribute="leading" secondItem="rik-vd-8PZ" secondAttribute="leading" constant="25" id="kAZ-tO-NUx"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.75" alpha="0.35399721746575341" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -189,8 +189,8 @@
                                     <constraint firstAttribute="trailing" secondItem="yKn-8S-6DY" secondAttribute="trailing" constant="32" id="dDT-T4-R5b"/>
                                     <constraint firstItem="nqM-vE-VLp" firstAttribute="leading" secondItem="5cs-NO-Nh8" secondAttribute="leading" constant="32" id="dkl-d2-Emi"/>
                                     <constraint firstAttribute="bottom" secondItem="rik-vd-8PZ" secondAttribute="bottom" constant="42" id="myj-RI-xv3"/>
-                                    <constraint firstItem="rik-vd-8PZ" firstAttribute="leading" secondItem="5cs-NO-Nh8" secondAttribute="leading" constant="32" id="pNR-NL-NdZ"/>
-                                    <constraint firstAttribute="trailing" secondItem="rik-vd-8PZ" secondAttribute="trailing" constant="32" id="tnv-sM-GVh"/>
+                                    <constraint firstItem="rik-vd-8PZ" firstAttribute="leading" secondItem="5cs-NO-Nh8" secondAttribute="leading" constant="87" id="pNR-NL-NdZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="rik-vd-8PZ" secondAttribute="trailing" constant="86" id="tnv-sM-GVh"/>
                                     <constraint firstItem="yKn-8S-6DY" firstAttribute="leading" secondItem="5cs-NO-Nh8" secondAttribute="leading" constant="32" id="z7o-fe-s04"/>
                                 </constraints>
                             </view>

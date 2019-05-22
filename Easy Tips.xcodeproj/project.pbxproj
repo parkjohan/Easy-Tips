@@ -79,9 +79,9 @@
 		98EDBAAC22901C600062E4E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98EDBAAD22901D660062E4E2 /* CalculateTipTextFieldButton.swift */,
 				98EDBAA6228FE9EF0062E4E2 /* RoundedShadowCard.swift */,
 				98EDBAAA228FFFED0062E4E2 /* GradientView.swift */,
-				98EDBAAD22901D660062E4E2 /* CalculateTipTextFieldButton.swift */,
 				98EDBA9B228FE9820062E4E2 /* Assets.xcassets */,
 				98EDBA9D228FE9820062E4E2 /* LaunchScreen.storyboard */,
 			);

@@ -19,11 +19,11 @@ class CalculateTipTextFieldButton: UITextField {
         let toolbar: UIToolbar = UIToolbar()
         
         let leadingFlex = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
-        let trailingFlex = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+        //let trailingFlex = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
         let doneButton = UIBarButtonItem(title: "Done", style: .done, target: self, action: #selector(doneButtonTapped))
         doneButton.tintColor = UIColor.black
         
-        toolbar.items = [leadingFlex, doneButton, trailingFlex]
+        toolbar.items = [leadingFlex, doneButton]
         toolbar.sizeToFit()
         
         self.inputAccessoryView = toolbar
