@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-import SuxiNumberInputView
+import RevealingSplashView
 
 class InputBillAmountViewController: UIViewController {
     
@@ -20,6 +20,15 @@ class InputBillAmountViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Initialize revealing splash
+        let revealingSplashView = RevealingSplashView(iconImage: UIImage(named: "Tip Calculator")!, iconInitialSize: CGSize(width: 250, height: 350), backgroundColor: .white)
+        self.view.addSubview(revealingSplashView)
+        
+        // Start animation
+        revealingSplashView.startAnimation() {
+            print("Completed")
+        }
         
         // Closure logic to calculate tip when "done" button tapped
         textField.buttonTapped = {
@@ -34,6 +43,7 @@ class InputBillAmountViewController: UIViewController {
             self.textField.resignFirstResponder()
         }
         
+        // Calculate bill, tip, and total amounts and display them in the labels
         guard let billAmount = self.textField.text,
             let bill = Double(billAmount) else { return }
         
@@ -51,7 +61,7 @@ class InputBillAmountViewController: UIViewController {
         case 3:
             tipPercent = 0.25
         default:
-            preconditionFailure("Restricted Index")
+            preconditionFailure("Unable to calculate")
         }
         
         let tipAmount = roundedBillAmount * tipPercent
@@ -60,7 +70,7 @@ class InputBillAmountViewController: UIViewController {
         let totalAmount = roundedTipAmount + roundedBillAmount
         
         // Show 2 zeros after decimal point, %.2f - displays 2 decimal points
-        self.textField.text = String(format: "$%.2f")
+        self.textField.text = String(format: "$%.2f", bill)
         self.billAmountLabel.text = String(format: "$%.2f", roundedBillAmount)
         self.tipAmountLabel.text = String(format: "$%.2f", roundedTipAmount)
         self.totalAmountLabel.text = String(format: "$%.2f", totalAmount)
